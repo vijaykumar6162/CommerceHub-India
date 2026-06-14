@@ -563,3 +563,48 @@ transform:translateY(-5px);
 color:#0a3d62;
 margin-bottom:15px;
 }
+footer{
+background: linear-gradient(135deg,#082c4e,#0a4f8f);
+color:white;
+padding:50px 20px 20px;
+margin-top:50px;
+}
+
+.footer-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+justify-content:space-between;
+flex-wrap:wrap;
+gap:30px;
+}
+
+.footer-box{
+flex:1;
+min-width:250px;
+}
+
+.footer-box h3{
+font-size:24px;
+margin-bottom:15px;
+color:#ffd700;
+}
+
+.footer-box p{
+margin:8px 0;
+line-height:1.6;
+}
+
+.footer-box p:hover{
+color:#ffd700;
+cursor:pointer;
+transition:0.3s;
+}
+
+.copyright{
+text-align:center;
+margin-top:30px;
+padding-top:20px;
+border-top:1px solid rgba(255,255,255,0.2);
+font-size:14px;
+}
