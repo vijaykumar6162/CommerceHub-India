@@ -455,3 +455,39 @@ transform:translateY(-5px);
 color:#0a3d62;
 margin-bottom:15px;
 }
+.success-section{
+padding:60px 40px;
+background:white;
+}
+
+.success-section h2{
+text-align:center;
+font-size:40px;
+color:#0a3d62;
+margin-bottom:40px;
+}
+
+.success-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.success-card{
+width:320px;
+padding:25px;
+background:#f8f9fa;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.success-card:hover{
+transform:translateY(-5px);
+}
+
+.success-card h3{
+color:#0a3d62;
+margin-bottom:15px;
+}
