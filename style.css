@@ -418,3 +418,40 @@ transform:translateY(-5px);
 color:#0a3d62;
 margin-bottom:10px;
 }
+.learning-section{
+padding:60px 40px;
+background:#f8f9fa;
+}
+
+.learning-section h2{
+text-align:center;
+font-size:40px;
+color:#0a3d62;
+margin-bottom:40px;
+}
+
+.learning-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.learning-card{
+width:320px;
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+border-top:5px solid #0a3d62;
+transition:0.3s;
+}
+
+.learning-card:hover{
+transform:translateY(-5px);
+}
+
+.learning-card h3{
+color:#0a3d62;
+margin-bottom:15px;
+}
