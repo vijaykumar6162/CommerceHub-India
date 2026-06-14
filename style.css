@@ -382,3 +382,39 @@ transform:translateY(-5px);
 color:#0a3d62;
 margin-bottom:10px;
 }
+.tools-section{
+padding:60px 40px;
+background:white;
+}
+
+.tools-section h2{
+text-align:center;
+font-size:40px;
+color:#0a3d62;
+margin-bottom:40px;
+}
+
+.tools-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:25px;
+}
+
+.tool-card{
+width:300px;
+padding:25px;
+background:#f8f9fa;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+transition:0.3s;
+}
+
+.tool-card:hover{
+transform:translateY(-5px);
+}
+
+.tool-card h3{
+color:#0a3d62;
+margin-bottom:10px;
+}
